@@ -1,4 +1,11 @@
 # WriteFree-Backend
+
+## Structure
+1. ``` master ```
+3. ``` deployment ```
+2. ``` testing ```
+
+
 ## Configure Database
 
 #### Download MongoDB
