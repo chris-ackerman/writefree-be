@@ -72,7 +72,7 @@ def add_note(note_db, base_note):
 #       form_data: new note data
 # output: None
 def save_note(note_db, form_data):
-    query = {"_id": ObjectId(form_data["noteID"])}
+    query = {"_id": ObjectId(form_data['noteID'])}
     new_values = {"title": form_data['title'], "category": form_data['category'], "content": form_data['noteContent'],
                   "lastUpdated": datetime.datetime.fromtimestamp(time.time()).strftime('%c')}
     dbcalls.DB_update_one(note_db, {"$set": new_values}, query)
@@ -124,7 +124,9 @@ def fetch_note(cred_db, value):
 #       noteID: value used for retrieval
 # output: response
 def render_PDF(noteID, noteHTML):
+    
     pdf = pdfkit.from_string(noteHTML, False)
+    print("****************************************************")
     response = make_response(pdf)
     response.headers['Content-Type'] = 'application/pdf'
     response.headers['Content-Disposition'] = 'inline; filename=output.pdf'
