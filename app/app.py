@@ -23,7 +23,7 @@ from flask_jwt_extended import (
 
 # initializations
 # mongo live server address
-#db_address = 'mongodb+srv://writefree_test:Il7hyiodq6WFQ32T@writefree-mgdru.gcp.mongodb.net/test?retryWrites=true'
+##db_address = 'mongodb+srv://writefree_test:Il7hyiodq6WFQ32T@writefree-mgdru.gcp.mongodb.net/test?retryWrites=true'
 db_address = 'localhost:27017'
 app = Flask(__name__)
 CORS(app)
