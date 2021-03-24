@@ -47,7 +47,7 @@ python-dateutil==2.7.5
 pytz==2018.9
 PyYAML==3.13
 requests==2.21.0
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.1.13
 scandir==1.9.0
 sentinels==1.0.0
