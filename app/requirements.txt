@@ -35,7 +35,7 @@ parse==1.11.1
 pathlib2==2.3.3
 pdfkit==0.6.1
 pluggy==0.8.0
-py==1.7.0
+py==1.10.0
 py-bcrypt==0.4
 pyasn1==0.4.4
 pycparser==2.19
