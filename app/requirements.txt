@@ -29,7 +29,7 @@ MarkupSafe==1.0
 mongoengine==0.15.3
 mongomock==3.14.0
 more-itertools==4.3.0
-numpy==1.15.1
+numpy==1.22.0
 pandas==0.24.1
 parse==1.11.1
 pathlib2==2.3.3
